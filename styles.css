@@ -1,13 +1,16 @@
+html, body {
+  height: 100%;
+}
+
 body {
   background-color: hsl(216, 12%, 8%);
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 50px;
 }
 
-#box {
+.box {
   background-color: hsl(213, 19%, 18%);
   font-family: Overpass;
   width: 360px;
@@ -93,3 +96,4 @@ p {
   background-color: white;
   cursor: pointer;
 }
+
